@@ -1,0 +1,23 @@
+
+header{
+  text-align: center;
+padding:2rem ;
+}
+main{
+    background: rgba(175, 166, 166, 0.664);
+    padding: 5rem;
+    text-align: center;
+    button{
+      border-radius: 50%;
+      padding: 2rem;
+    }
+    button:hover{
+      color: white;
+       background:rgb(104, 101, 101);
+     }
+}
+footer{
+    padding-top: 2rem;
+    text-align: center;
+
+}

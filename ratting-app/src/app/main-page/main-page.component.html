@@ -1,0 +1,20 @@
+<div class="container">
+  <header>
+    <button (click)="randomValue()">Random Rank All Items</button
+    ><button (click)="randomUnit()">Random Element Rate</button
+    ><button (click)="orderItems()">Order all items</button>
+  </header>
+
+  <main>
+    <div class="cards">
+      <div *ngFor="let card of tempCards">
+        <div class="badge">
+          Film: {{ card.name | uppercase }}
+          <span class="puntuation"> Stars: {{ card.rating }} </span>
+          <button (click)="reduceStar(card)">-</button>
+          <button (click)="addStar(card)">+</button>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>

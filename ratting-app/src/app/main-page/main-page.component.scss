@@ -1,0 +1,46 @@
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: sticky;
+    top: 0;
+    button{
+        border: 1px solid pink;
+        border-radius: 5%;
+        padding: 1rem;
+        margin: 1%;
+        }
+
+}
+main{
+    button{
+        margin-left:.5rem; 
+    }
+.cards{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr ;
+    text-align: center;
+}
+.cards>div {
+        border-radius:2%  ;
+        margin: 1px;
+       border: 1px solid rgb(82, 73, 73);
+       .badge{
+
+           font-size: large;
+           color: rgb(15, 25, 71);
+           padding: 1rem;
+           display: grid;
+          
+           grid-template-columns: 3fr 2fr 1fr 1fr;
+       }
+      .puntuation{
+          color: rgb(5, 95, 155);
+         
+          span{
+              padding: 1rem;
+          }
+      } 
+    }
+}
